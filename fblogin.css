@@ -1,0 +1,108 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: rgba(128, 128, 128, 0.76);
+}
+
+.fblogin
+{
+    /* border: 5px solid purple; */
+    display: flex;
+    justify-content: space-around;
+}
+.child1
+{
+    /* border: 5px solid green; */
+     margin: 20px;
+    width: 600px;
+}
+
+.child2
+{
+    /* border: 5px solid purple; */
+    margin: 20px;
+    width: 600px;
+    background-color: white;
+    width: 400px;
+    border-radius: 7px;
+    padding:10px;
+    padding-bottom: 25px;
+}
+.child2 form
+{
+    /* border: 5px solid purple; */
+    width:400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-input
+{
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.form-input input,.form-input a{
+    width: 100%;
+}
+.form-input input
+{
+    padding: 15px;
+    border: lightgrey solid 1px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+.form-input input:focus
+{
+    outline: 1px solid blue;
+}
+
+.form-input input:focus::placeholder
+{
+    color: rgba(98, 100, 98, 0.459);
+}
+.form-input input[type="submit"]
+{
+    background-color: rgba(37, 37, 202, 0.774);
+    color: white;
+    font-size: 25px;
+    outline: none;
+}
+
+hr
+{
+    background-color: black;
+    margin-bottom: 40px;
+}
+
+.form-input a{
+    margin: 2px 100px;
+    color: blue;
+    text-decoration: none;
+}
+
+.fb-btn
+{
+    background-color: rgba(37, 160, 37);
+    padding: 14px 20px;
+    color: white!important;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 100px;
+}
+
+.child1 h1{
+    font-size: 70px;
+    color: blue;
+
+}
+.child1 p{
+    font-size: 30px;
+    margin-top: -57px;
+}
